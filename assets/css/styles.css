@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logoWrapper {
+  width: 500px;
+  height: 40px;  
+  z-index: 55;
+
+}
+
+@media screen and (max-width: 768px) {
+  .logoWrapper {
+    width: 20%;
+    position: absolute;
+    left: 0px;
+  }
+  
+}
+
+.logoWrapper a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bg-warning {
+  background-color: #b79d18;
+}
+.p {
+  color: #92959a;
+}
+.Wrapper {
+  width: 90%;
+  overflow-x: hidden;
+  margin: auto;
+}
+
+.callToActions .btn {
+  outline: none;
+  padding: 9px 21px;
+  border: 1px solid #000;
+}
+
+.callToActions .btn2 {
+  border: none;
+  outline: none;
+  padding: 10px 21px;
+}
+
+.navBarLink {
+  text-align: center;
+  display: inline-block;
+}
+
+.nav-brand {
+  padding: 0px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-brand {
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    z-index: 5;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .heroSectionTitle {
+    font-size: 32px;
+  }
+}
+
+.navBarWrapper.navbar {
+  display: block;
+}
+
+.video-container {
+  /* Set your desired width */
+  height: auto;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* "cover" makes sure the video fills the container, cropping if necessary */
+}
+
+#HeroSection .container-fluid {
+  margin-left: auto;
+  width: 95%;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#HeroSection .card-container {
+  width: 90%;
+  margin: auto;
+  padding: 5px 10px;
+}
+
+.fs-7 {
+  font-size: 32px;
+}
+
+.yellow-line {
+  width: 3px;
+  height: 32px;
+  background-color: #fbe54d;
+  display: inline-block;
+}
+
+.section {
+  padding: 120px 0 0 0;
+}
+
+.card .imgWrapper {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.card .imgWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 220px;
+  display: inline-block;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.roadmap .imgWrapper {
+  width: 50px;
+  height: 50px;
+}
+
+.feedbackCardWrapper .card .imgWrapper {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  margin: auto;
+  border: 1px solid #000;
+  border-radius: 50px;
+  align-items: center;
+}
